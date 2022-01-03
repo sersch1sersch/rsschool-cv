@@ -1,0 +1,134 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #4d2323;
+}
+html {
+    scroll-behavior: smooth; 
+  }
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header{background-color: rgb(124, 123, 129);}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .nav-list {
+    list-style: none;
+    flex-wrap: wrap;
+  }
+
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    
+  }
+  .nav-link {
+    transition: .3s;
+  }
+  .nav-item a {
+    color: #f8faf8;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+  .nav-item a:hover {
+    color: #e90d0d;
+  }
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section-title {
+    width: 47%;
+    margin-right: 20px;
+  }
+  #profile{
+      width:100%;
+    }
+#profile img{
+    float:left
+}
+.main-container #profile h1{text-align: center;
+    margin-top: 103px;}
+.main-container #profile p{text-align: center}
+.section-title{border-bottom:solid  rgb(124, 123, 129)}
+#summary p::before,
+#skills p::before,
+#courses p::before{
+    content:url('assets/icons-galka.png');
+    position: relative;
+    top: 5px;
+    left: -1px;
+    width: 10px;
+    height: 10px; 
+}
+ .adress::before{
+    content:url('assets/icons8-adres.png');
+    position: relative;
+    top: 5px;
+    left: -1px;
+    width: 10px;
+    height: 10px; 
+}
+.email::before{
+    content:url('assets/icons-e-mail.png');
+    position: relative;
+    top: 5px;
+    left: -1px;
+    width: 10px;
+    height: 10px; 
+}
+.github::before{
+    content:url('assets/icons8-github-24.png');
+    position: relative;
+    top: 5px;
+    left: -1px;
+    width: 10px;
+    height: 10px; 
+}
+.telegram::before{
+    content:url('assets/icons-telegram.png');
+    position: relative;
+    top: 5px;
+    left: -1px;
+    width: 10px;
+    height: 10px; 
+}
+.discord::before{
+    content:url('assets/icons8-discord-24.png');
+    position: relative;
+    top: 5px;
+    left: -1px;
+    width: 10px;
+    height: 10px; 
+}
+.footer-container{
+    background-color: rgb(124, 123, 129);
+    display: flex;
+    height: 50px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: center;
+}
+.footer-container a {
+  color: #f8faf8;
+  text-decoration: none;  
+  transition: color 0.5s;
+}
+.footer-container a:hover {
+  color: #e90d0d;
+}
+#education,#english{
+      margin-bottom:-3px
+    }
